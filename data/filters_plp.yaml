@@ -1,0 +1,39 @@
+filters:
+  path: /_v/filters-plp/filter
+  methods: [GET, PUT]
+
+filterById:
+  path: /_v/filters-plp/filter/7493677d-172d-4933-8a1f-af2b83e38a93
+  methods: [GET, DELETE]
+
+filterByParams:
+  path: /_v/filters-plp/filter/params
+  methods: [POST]
+
+restore:
+  path: /_v/filters-plp/restore/
+  methods: [POST]
+
+genericFilters:
+  path: /_v/filters-plp/generic-filters/
+  methods: [GET, PUT]
+
+genericFilterById:
+  path: /_v/filters-plp/generic-filters/7493677d-172d-4933-8a1f-af2b83e38a93
+  methods: [GET, DELETE]
+
+restoreGeneric:
+  path: /_v/filters-plp/restore-generic/
+  methods: [POST]
+
+keyVisuals:
+  path: /_v/filters-plp/key-visuals/
+  methods: [GET, PUT]
+
+kvById:
+  path: /_v/filters-plp/key-visuals/7493677d-172d-4933-8a1f-af2b83e38a93
+  methods: [GET, DELETE]
+
+restoreKV:
+  path: /_v/filters-plp/restore-key-visual/
+  methods: [POST]
