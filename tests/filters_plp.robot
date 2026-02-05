@@ -27,7 +27,7 @@ Test Filters API PLP
                         ${response}=    Create API Session And Execute    ${url}    ${method}    ${path}
                         ${expected}=    Set Variable If    '${method}' == 'POST'    200    405
                         ${passed}=    Run Keyword And Return Status    Should Be Equal As Integers    ${response.status_code}    ${expected}
-                        IF    ${passed}    Log    ⚠️ Unexpected response ${response.status_code} (expected ${expected}) — continuing
+                        IF    ${passed}    Log    Unexpected response ${response.status_code} (expected ${expected}) — continuing
                         ${result}=    Set Variable If    ${passed}    PASS    FAIL
                         append_result  ${env}    ${url}    ${filter}    ${path}    ${method}    ${result}
                     END     
