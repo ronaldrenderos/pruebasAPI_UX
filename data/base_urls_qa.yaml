@@ -1,0 +1,11 @@
+main:
+  SV: https://simanqa.myvtex.com
+  GT: https://simanqagt.myvtex.com
+  CR: https://simanqacr.myvtex.com
+  NI: https://simanqanicor.myvtex.com
+
+instore:
+  SV: https://simanqainstoresv.myvtex.com
+  GT: https://simanqainstoregt.myvtex.com
+  CR: https://simanqainstorecr.myvtex.com
+  NI: https://simanqainstoreni.myvtex.com

@@ -1,0 +1,15 @@
+tables:
+  path: /_v/sizes-table/table
+  methods: [GET, PUT, DELETE]
+
+tableById:
+  path: /_v/sizes-table/table/{id}
+  methods: [GET, DELETE]
+
+tableByParams:
+  path: /_v/sizes-table/table/params
+  methods: [POST]
+
+restore:
+  path: /_v/sizes-table/restore/
+  methods: [POST]
