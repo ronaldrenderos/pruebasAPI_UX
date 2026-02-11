@@ -8,9 +8,9 @@ Library     ../libraries/excel_writer.py
 Test Filters PLP 
     [Documentation]    API endpoints for filters on the PLP.
     [Tags]    filters_plp    api    regression
-    Test API    base_urls.yaml    filters_plp.yaml    
+    Test API    base_urls_prod.yaml    filters_plp_prod.yaml    
 
 Test SizeApp 
     [Documentation]    API endpoints for SizeApp.
     [Tags]    sizeapp    api    regression    
-    Test API    base_urls.yaml    sizeapp.yaml
+    Test API    base_urls_prod.yaml    sizeapp_prod.yaml

@@ -6,7 +6,7 @@ Library     ../libraries/excel_writer.py
 *** Keywords ***
 Test API 
     [Tags]    filters_plp    api    regression
-    [Arguments]    ${base_file}=base_urls.yaml    ${path_file}=filters_plp.yaml
+    [Arguments]    ${base_file}    ${path_file}
     ${base_urls}=    Load Yaml File    ${base_file}
     ${path_data}=    Load Yaml File    ${path_file}
     init_excel_for_test    ${TEST NAME}

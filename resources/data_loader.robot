@@ -12,7 +12,7 @@ Load Yaml File
 
 Load Base Urls
     [Documentation]    Load base URLs from a YAML file.
-    [Arguments]    ${base_file}=base_urls.yaml    
+    [Arguments]    ${base_file}    
     ${urls}=    Load Yaml File    ${base_file}
     RETURN     ${urls}
 
